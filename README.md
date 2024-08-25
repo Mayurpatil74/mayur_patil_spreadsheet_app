@@ -1,4 +1,5 @@
 Spreadsheet frontend applictaion
+
 Table of Contents - 
 Introduction -
 This project is a frontend application built with Next.js and Tailwind CSS that provides user friendly functionality of a spreadsheet.
