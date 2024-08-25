@@ -29,13 +29,42 @@ Redo: Restores any change that was undone, enabling users to quickly reapply act
 Multiple Levels: Supports multiple levels of undo and redo, so users can step back or forward through several changes.
 Installation
 -
+1.git clone [https://github.com/Mayurpatil74/mayur_patil_spreadsheet_app] 
+
+2.Install the dependencies:
+npm install
+
+3.Run the development server:
+npm run dev
+
+4.Open the application in your browser:
+http://localhost:3000
+
 Usage
+
+When the application is up and running, you will see a grid of 1000 blank cells. You can click on any cell to edit its content, format the text, validate data input, and utilize the search/filter feature for quick navigation. The undo/redo feature allows you to backtrack or revert changes efficiently.
+
+
 Core Functionality
-Advanced Features
+
+Core Functionality
+1. Grid Rendering
+The grid contains 1000 cells and is optimized for performance to ensure smooth scrolling and interaction. Tailwind CSS is used for styling, ensuring the cells are responsive and styled with grid lines, padding, and font.
+
+2. Cell Editing
+Each cell is individually editable, allowing the user to input and store data in memory via zustand state management. Changes made in any cell are dynamically reflected across the grid.
+
+3. Data Storage
+Data entered into each cell is managed with zustand to maintain state in memory, ensuring data persists while interacting with the grid.
+
+4. Cell Styling
+Grid cells are visually styled with clear grid lines and interactive elements, making the application closely resemble a traditional spreadsheet.
+
 Dependencies
-Configuration
-Contributors
-License
+Next.js: React framework for building the frontend.
+Zustand: For lightweight state management.
+Tailwind CSS: Utility-first CSS framework for styling.
+React Icons: For providing a clean, modern user interface.
 
 
 
