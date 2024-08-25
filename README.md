@@ -1,2 +1,41 @@
-# mayur_patil_spreadsheet_app
-The interactive spreadsheet application built with Next.js and Tailwind CSS.the project will assess your skills in frontend development,UI/UX design and state management.
+Spreadsheet frontend applictaion
+Table of Contents - 
+Introduction -
+This project is a frontend application built with Next.js and Tailwind CSS that provides user friendly functionality of a spreadsheet.
+it provides Cell Formatting,Data Validation,Search and Filter,Pagination,Undo/Redo.
+the spreadsheet application is designed to access skills such as excellent UI/UX design,state management and fast performance.
+Advanced Features -
+Cell Formatting -
+Text Formatting: Apply bold, italic, underline, and strikethrough to cell text.
+Number Formatting: Format cells to display numbers, percentages, currency, dates, or custom number formats.
+Cell Alignment: Align text to the left, center, or right within a cell, and adjust vertical alignment as well.
+Background and Text Colors: Customize the background color and text color of cells to highlight important data.
+Borders: Add or modify borders around cells, including color and thickness options.
+Data Validation -
+Users can define rules for specific cells or ranges (e.g., only numbers, specific text formats, or custom logic).
+Error Handling: If a user inputs invalid data, the cell will display an error message or prevent the input, depending on the rule.
+Search and Filter -
+Allows users to search for specific data within the spreadsheet by keywords, numbers, or phrases. The search results will highlight matching cells for easy identification.
+Filter Options to Users can apply filters to columns to display only the rows that meet specific criteria (e.g., showing rows where a certain column value is greater than a specified number or contains specific text).
+Supports custom filter conditions, allowing users to combine multiple criteria for more advanced filtering needs.
+Pagination -
+It is handling large datasets such as automatically divides large spreadsheets into smaller, more manageable pages.
+Navigation Controls: Provides intuitive controls to navigate between pages, such as "Next," "Previous," and direct page number selection.
+Customizable Page Size: Users can adjust the number of rows displayed per page to suit their preference.
+Performance Optimization: Reduces load times and enhances performance by loading only the data needed for the current page.
+Undo/Redo -
+Undo: Allows users to revert the last change made to the spreadsheet, whether it's editing a cell, deleting a row, or applying a filter.
+Redo: Restores any change that was undone, enabling users to quickly reapply actions if needed.
+Multiple Levels: Supports multiple levels of undo and redo, so users can step back or forward through several changes.
+Installation
+-
+Usage
+Core Functionality
+Advanced Features
+Dependencies
+Configuration
+Contributors
+License
+
+
+
